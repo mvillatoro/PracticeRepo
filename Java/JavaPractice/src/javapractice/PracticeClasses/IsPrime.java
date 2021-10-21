@@ -12,10 +12,12 @@ package javapractice.PracticeClasses;
 public class IsPrime {
     
     private int[] numberList;
-    
+
     public IsPrime(int[] numberList){
         this.numberList = numberList;
     }
+
+    public IsPrime(){}
     
     public void getPrimeList(){
         
@@ -45,7 +47,7 @@ public class IsPrime {
         System.out.println("");
     }
  
-    private int isPrimeNumber(int n){
+    public int isPrimeNumber(int n){
         
         int i = 1;
         int multCount = 0;
