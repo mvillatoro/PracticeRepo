@@ -74,3 +74,6 @@ nbdist/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,react
 React/01-starting-setup/.eslintcache
 /Java/JavaPractice/build/
+Java/JavaPractice/nbproject/private/private.properties
+Java/JavaPractice/nbproject/genfiles.properties
+Java/JavaPractice/nbproject/private/private.xml
