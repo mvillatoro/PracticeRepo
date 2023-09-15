@@ -1,0 +1,47 @@
+body {
+  border: 5px solid #444;
+  font-family: sans-serif;
+  color: #444;
+  line-height: 1.4;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing {
+  font-size: 28px;
+}
+
+.shipping-info {
+  color: gray;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#add-to-cart {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#add-to-cart:hover {
+  background-color: white;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
