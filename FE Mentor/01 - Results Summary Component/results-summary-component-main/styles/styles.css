@@ -10,7 +10,10 @@
 }
 
 body {
-  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #e7e9fb;
 }
 
 .container {
@@ -79,56 +82,129 @@ body {
 .summary {
   display: grid;
   width: 288px;
-  justify-items: center;
+  height: 450px;
+  justify-items: stretch;
+  align-items: center;
+
+  justify-self: center;
+  align-self: center;
+
+  row-gap: 20px;
 }
 
 .summary-text {
   font-family: HankenGrotesk;
   font-size: 24px;
+  font-weight: 800;
   color: hsl(224, 30%, 27%);
 }
 
 .reaction-tittle {
   font-family: HankenGrotesk;
   font-size: 18px;
+  font-weight: 600;
   color: hsl(0, 100%, 67%);
+  align-self: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.reaction-metric {
+  background-color: rgba(255, 85, 85, 0.05);
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  align-self: stretch;
 }
 
 .memory-tittle {
   font-family: HankenGrotesk;
   font-size: 18px;
+  font-weight: 600;
   color: hsl(39, 100%, 56%);
+  align-self: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.memory-metric {
+  background-color: rgba(255, 178, 30, 0.05);
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  align-self: stretch;
 }
 
 .verbal-tittle {
   font-family: HankenGrotesk;
   font-size: 18px;
+  font-weight: 600;
   color: hsl(166, 100%, 37%);
+  align-self: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.verbal-metric {
+  background-color: rgba(0, 187, 143, 0.05);
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  align-self: stretch;
 }
 
 .visual-tittle {
   font-family: HankenGrotesk;
   font-size: 18px;
+  font-weight: 600;
   color: hsl(234, 85%, 45%);
+  align-self: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
 }
 
-.item-metric {
+.visual-metric {
+  background-color: rgba(17, 37, 214, 0.05);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  align-self: stretch;
+}
+
+.score {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 700;
+  align-self: center;
 }
 
 .metric-score {
-  font-family: HankenGrotesk;
-  font-size: 18px;
-  font-weight: 700;
-  color: hsl(224, 30%, 27%);
   display: inline-block;
+  color: hsl(224, 30%, 27%);
 }
 
 .metric-default {
+  display: inline-block;
+  color: hsl(224, 30%, 50%);
+}
+
+.continue-btn {
   font-family: HankenGrotesk;
   font-size: 18px;
-  font-weight: 700;
-  color: hsl(224, 30%, 50%);
-  display: inline-block;
+  background-color: #303b59;
+  color: #fff;
+  border-radius: 50px;
+  height: 56px;
+}
+
+.continue-btn:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
