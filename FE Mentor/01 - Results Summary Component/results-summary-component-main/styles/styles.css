@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+  background-color: burlywood;
+}
+
+.container {
+  border-radius: 32px;
+  width: 736px;
+  height: 512px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+
+.score-box {
+  border-radius: 32px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.score-view {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: hsla(256, 72%, 46%, 1);
+  display: grid;
+  justify-content: center;
+}
+
+.result-header {
+  font-family: HankenGrotesk;
+  font-size: 24px;
+  color: hsl(241, 100%, 89%);
+}
+
+.score-number {
+  font-family: HankenGrotesk;
+  font-weight: 700;
+  font-size: 72px;
+  color: #fff;
+  align-self: end;
+}
+
+.score-total {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+}
+
+.score-text {
+  font-family: HankenGrotesk;
+  font-size: 32px;
+  color: #fff;
+  align-self: center;
+}
+
+.score-after-text {
+  width: 260px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  align-self: start;
+}
+
+.summary {
+  display: grid;
+  width: 288px;
+  justify-items: center;
+}
+
+.summary-text {
+  font-family: HankenGrotesk;
+  font-size: 24px;
+  color: hsl(224, 30%, 27%);
+}
+
+.reaction-tittle {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  color: hsl(0, 100%, 67%);
+}
+
+.memory-tittle {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal-tittle {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual-tittle {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  color: hsl(234, 85%, 45%);
+}
+
+.item-metric {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metric-score {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  display: inline-block;
+}
+
+.metric-default {
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(224, 30%, 50%);
+  display: inline-block;
+}
