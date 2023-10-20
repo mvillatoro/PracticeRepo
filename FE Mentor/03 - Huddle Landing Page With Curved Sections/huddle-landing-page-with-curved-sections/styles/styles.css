@@ -35,7 +35,10 @@ body {
   justify-content: space-between;
   margin: 0 24px;
   margin-top: 24px;
-  flex-grow: 10;
+  width: 300px;
+  @media (min-width: 700px) {
+    width: 1020px;
+  }
 }
 
 .try-btn {
@@ -53,6 +56,15 @@ body {
     width: 136px;
     height: 40px;
   }
+}
+
+.try-btn:hover {
+  border: 1px solid #ff8ed7;
+  color: #ff8ed7;
+}
+
+.get-started:hover {
+  background-color: #ff8ed7;
 }
 
 .tittle-container {
@@ -260,9 +272,15 @@ body {
 }
 
 .page-footer {
+  width: 320px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 104px;
+  @media (min-width: 700px) {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 1570px;
+  }
 }
 
 .newsletter-container {
@@ -282,11 +300,13 @@ body {
 }
 
 .newsletter-paragraph {
-  width: 320px;
   font-family: "Open Sans";
+  line-height: 1.5;
   font-size: 14px;
   text-align: left;
-  /* color: #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .newsletter-input {
@@ -307,4 +327,74 @@ body {
   border-radius: 10px;
   border: 1px solid hsl(322, 100%, 66%);
   align-self: flex-end;
+}
+
+.newsletter-subscribe:hover {
+  background-color: #ff8ed7;
+}
+
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.footer-logo {
+  align-self: flex-start;
+  width: 200px;
+  height: 32px;
+}
+
+.footer-img {
+  width: 432;
+  height: 840;
+}
+
+.contact-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  width: 300px;
+}
+
+.contact {
+  display: flex;
+  gap: 16px;
+}
+
+.contact p {
+  display: inline-block;
+}
+
+.contact svg {
+  display: inline-block;
+}
+
+.contact-info {
+  font-family: "Open Sans";
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-art {
+  width: 100px;
+  height: 100px;
 }
