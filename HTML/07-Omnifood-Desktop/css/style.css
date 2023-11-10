@@ -10,11 +10,32 @@
 
   /* Because we want it to be sticky later */
   height: 9.6rem;
-  padding: 0 48px;
+  padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
   height: 2.2rem;
+}
+
+/* Mobile */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /**********************/
@@ -25,7 +46,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -76,15 +97,10 @@
   align-items: center;
 }
 
-.hero-text-box {
-}
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-}
-.hero-image-box {
 }
 
 .hero-image {
@@ -374,13 +390,14 @@
 /*************************/
 
 .section-pricing {
-  padding: 9.6rem;
+  padding: 9.6rem 0;
 }
 
 .pricing-plan {
   border-radius: 11px;
   width: 75%;
 }
+
 .pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
