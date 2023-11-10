@@ -39,7 +39,8 @@ Paragraph: 1.6
     #45260a
 - Accents:
 - Greys:
-    #6f6f6f (lightest gret allowed on #fdf2e9)
+    #767676 (lightest grey allowed on #fff)
+    #6f6f6f (lightest grey allowed on #fdf2e9)
     #888
     #555
     #333
@@ -130,6 +131,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading-primary,
