@@ -81,7 +81,7 @@ h1 {
   width: 540px;
   height: 446px;
   background-size: cover;
-  background-image: url("../../images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-desktop.jpg");
 }
 
 .background-tint {
